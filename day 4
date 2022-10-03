@@ -1,0 +1,30 @@
+public class PellSeriesIterative
+ {
+ public static void main(String argvs[])
+ {
+                int t1 = 0, t2 = 1; // the first two terms
+                // Defines the number of terms upto which we are printing the Pell series
+                int noOfTerms = 15;
+                System.out.print("The first " + noOfTerms + " terms of Pell series are: \n");
+                for(int i = 1; i <= noOfTerms; i++)
+                {
+                                if( i == 1) // printing the first term
+                                {
+                                               System.out.print(t1 + " ");
+                                }
+                                else if(i == 2) // printing the second term
+                                {
+                                               System.out.print(t2 + " ");
+                                }
+                                else // printing the rest of the term
+                                {
+                                               int t3 = t1 + t2 * 2;
+                                               System.out.print(t3 + " ");
+                                               // preparing for the next iteration
+                                               // updating the t1 and t2 variable.
+                                               t1 = t2;
+                                               t2 = t3;
+                                }
+                }
+ }
+ } 
