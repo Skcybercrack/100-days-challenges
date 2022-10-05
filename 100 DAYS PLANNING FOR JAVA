@@ -1,0 +1,161 @@
+Start from day 7
+Java Program to Check Whether a Number is Even or Odd                Solved 
+Java Program to Check Whether an Alphabet is Vowel or Consonant
+Java Program to Find all Roots of a Quadratic Equation
+Java Program to Check Leap Year
+Java Program to Check Whether a Number is Positive or Negative
+Java Program to Check Whether a Character is Alphabet or Not
+Java Program to Calculate the Sum of Natural Numbers
+Java Program to Find Factorial of a Number
+Java Program to Generate Multiplication Table
+Java Program to Display Fibonacci Series
+Java Program to Find GCD of two Numbers
+Java Program to Find LCM of two Numbers
+Java Program to Display Alphabets (A to Z) using loop
+Java Program to Count Number of Digits in an Integer
+Java Program to Reverse a Number
+Java Program to Calculate the Power of a Number
+Java Program to Check Palindrome
+Java Program to Check Whether a Number is Prime or Not
+Java Program to Display Prime Numbers Between Two Intervals
+Java Program to Check Armstrong Number
+Java Program to Display Armstrong Number Between Two Intervals
+Java Program to Display Prime Numbers Between Intervals Using Function
+Java Program to Display Armstrong Numbers Between Intervals Using Function
+Java Program to Display Factors of a Number
+Java Program to Make a Simple Calculator Using switch...case
+Java Program to Check Whether a Number can be Expressed as Sum of Two Prime Numbers
+Java Program to Find the Sum of Natural Numbers using Recursion
+Java Program to Find Factorial of a Number Using Recursion
+Java Program to Find G.C.D Using Recursion
+Java Program to Convert Binary Number to Decimal and vice-versa
+Java Program to Convert Octal Number to Decimal and vice-versa
+Java Program to Convert Binary Number to Octal and vice-versa
+Java Program to Reverse a Sentence Using Recursion
+Java Program to calculate the power using recursion
+Java Program to Calculate Average Using Arrays
+Java Program to Find Largest Element of an Array
+Java Program to Calculate Standard Deviation
+Java Program to Add Two Matrix Using Multi-dimensional Arrays
+Java Program to Multiply Two Matrix Using Multi-dimensional Arrays
+Java Program to Multiply two Matrices by Passing Matrix to a Function
+Java Program to Find Transpose of a Matrix
+Java Program to Find the Frequency of Character in a String
+Java Program to Count the Number of Vowels and Consonants in a Sentence
+Java Program to Sort Elements in Lexicographical Order (Dictionary Order)
+Java Program to Add Two Complex Numbers by Passing Class to a Function
+Java Program to Calculate Difference Between Two Time Periods
+Java Code To Create Pyramid and Pattern
+Java Program to Remove All Whitespaces from a String
+Java Program to Print an Array
+Java Program to Convert String to Date
+Java Program to Round a Number to n Decimal Places
+Java Program to Concatenate Two Arrays
+Java Program to Convert Character to String and Vice-Versa
+Java Program to Check if An Array Contains a Given Value
+Java Program to Check if a String is Empty or Null
+Java Program to Get Current Date/TIme
+Java Program to Convert Milliseconds to Minutes and Seconds
+Java Program to Add Two Dates
+Java Program to Join Two Lists
+Java Program to Convert a List to Array and Vice Versa
+Java Program to Get Current Working Directory
+Java Program to Convert Map (HashMap) to List
+Java Program to Convert Array to Set (HashSet) and Vice-Versa
+Java Program to Convert Byte Array to Hexadecimal
+Java Program to Create String from Contents of a File
+Java Program to Append Text to an Existing File
+Java Program to Convert a Stack Trace to a String
+Java Program to Convert File to byte array and Vice-Versa
+Java Program to Convert InputStream to String
+Java Program to Convert OutputStream to String
+Java Program to Lookup enum by String value
+Java Program to Compare Strings
+Java Program to Sort a Map By Values
+Java Program to Sort ArrayList of Custom Objects By Property
+Java Program to Check if a String is Numeric
+Java Program to convert char type variables to int
+Java Program to convert int type variables to char
+Java Program to convert long type variables into int
+Java Program to convert int type variables to long
+Java Program to convert boolean variables into string
+Java Program to convert string type variables into boolean
+Java Program to convert string type variables into int
+Java Program to convert int type variables to String
+Java Program to convert int type variables to double
+Java Program to convert double type variables to int
+Java Program to convert string variables to double
+Java Program to convert double type variables to string
+Java Program to convert primitive types to objects and vice versa
+Java Program to Implement Bubble Sort algorithm
+Java Program to Implement Quick Sort Algorithm
+Java Program to Implement Merge Sort Algorithm
+Java Program to Implement Binary Search Algorithm
+Java Program to Call One Constructor from another
+Java Program to implement private constructors
+Java Program to pass lambda expression as a method argument
+Java Program to pass method call as arguments to another method
+Java Program to Calculate the Execution Time of Methods
+Java Program to Convert a String into the InputStream
+Java Program to Convert the InputStream into Byte Array
+Java Program to Load File as InputStream
+Java Program to Create File and Write to the File
+Java Program to Read the Content of a File Line by Line
+Java Program to Delete File in Java
+Java Program to Delete Empty and Non-empty Directory
+Java Program to Get the File Extension
+Java Program to Get the name of the file from the absolute path
+Java Program to Get the relative path from two absolute paths
+Java Program to Count number of lines present in the file
+Java Program to Determine the class of an object
+Java Program to Create an enum class
+Java Program to Print object of a class
+Java Program to Create custom exception
+Java Program to Create an Immutable Class
+Java Program to Check if two strings are anagram
+Java Program to Compute all the permutations of the string
+Java Program to Create random strings
+Java Program to Clear the StringBuffer
+Java Program to Capitalize the first character of each word in a String
+Java Program to Iterate through each characters of the string.
+Java Program to Differentiate String == operator and equals() method
+Java Program to Implement switch statement on strings
+Java Program to Calculate simple interest and compound interest
+Java Program to Implement multiple inheritance
+Java Program to Determine the name and version of the operating system
+Java Program to Check if two of three boolean variables are true
+Java Program to Iterate over enum
+Java Program to Check the birthday and print Happy Birthday message
+Java Program to Implement LinkedList
+Java Program to Implement stack data structure
+Java Program to Implement the queue data structure
+Java Program to Get the middle element of LinkedList in a single iteration
+Java Program to Convert the LinkedList into an Array and vice versa
+Java Program to Convert the ArrayList into a string and vice versa
+Java Program to Iterate over an ArrayList
+Java Program to Iterate over a HashMap
+Java Program to Iterate over a Set
+Java Program to Merge two lists
+Java Program to Update value of HashMap using key
+Java Program to Remove duplicate elements from ArrayList
+Java Program to Get key from HashMap using the value
+Java Program to Detect loop in a LinkedList
+Java Program to Calculate union of two sets
+Java Program to Calculate the intersection of two sets
+Java Program to Calculate the difference between two sets
+Java Program to Check if a set is the subset of another set
+Java Program to Sort map by keys
+Java Program to Pass ArrayList as the function argument
+Java Program to Iterate over ArrayList using Lambda Expression
+Java Program to Implement Binary Tree Data Structure
+Java Program to Perform the preorder tree traversal
+Java Program to Perform the postorder tree traversal
+Java Program to Perform the inorder tree traversal
+Java Program to Count number of leaf nodes in a tree
+Java Program to Check if a string contains a substring
+Java Program to Access private members of a class
+Java Program to Check if a string is a valid shuffle of two distinct strings
+Java Program to Implement the graph data structure
+Java Program to Remove elements from the LinkedList.
+Java Program to Add elements to a LinkedList
+Java Program to Access elements from a LinkedList.
