@@ -1,0 +1,51 @@
+Check input number wheather even or odd
+
+here i focus on every input by the user with try catch block
+
+
+
+import java.util.Scanner;  
+/**
+ *
+ * @author mobil
+ */
+public class positivenegativecheck {
+     
+   
+public static void main(String[] args)   
+{  
+String num1;  
+//object of the Scanner class  
+Scanner sc = new Scanner(System.in);  
+System.out.print("Enter a number: ");  
+//reading a number from the user  
+num1 = sc.nextLine();  
+
+
+
+if (num1 == null) {     //checks the input is null or not
+        System.out.println("This is a null value."); 
+    }
+else
+    try {
+        double d = Double.parseDouble(num1);
+        
+        if(d<=0)  //checks the input is zero or a negative number
+             System.out.println(d + " is a negetive number or zero");
+      else  if(d % 2 == 0)
+            System.out.println(d + " is even");  //checks the input for even
+        else
+            System.out.println(d + " is odd") ;  //checks the input for odd
+ 
+    } catch (NumberFormatException e) {  //if the input is not a number here it will catch the exception
+        System.out.println("This is not a number");  
+    }
+  
+
+
+ 
+
+
+
+}  
+}  
