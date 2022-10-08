@@ -1,0 +1,63 @@
+# 100-days-challenges
+Problem- Check the input is a leap year or not
+
+Test-
+     -NULL
+     -VALID NUMBER
+     -DIVISIBLE BY 100 OR 400
+     -CHAR
+     -SPECIAL CHARACTER
+import java.util.Scanner;
+public class Leapyear {
+
+  public static void main(String[] args) {
+
+    // year to be checked
+   
+    boolean leap = false;
+Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER THE YEAR");
+        String str = sc.nextLine();
+    // if the year is divided by 4
+  
+     if(str==null)
+   {
+   System.out.println("NULL VALUE ENTERED");
+   System.exit(0);
+   }
+    try{
+        double year = Double.parseDouble(str);
+        System.out.println("this is a number");
+        
+    if (year % 4 == 0) {
+
+      // if the year is century
+      if (year % 100 == 0) {
+
+        // if year is divided by 400
+        // then it is a leap year
+        if (year % 400 == 0)
+          leap = true;
+        else
+          leap = false;
+      }
+      
+      // if the year is not century
+      else
+        leap = true;
+    }
+    
+    else
+      leap = false;
+
+    if (leap)
+      System.out.println(year + " is a leap year.");
+    else
+      System.out.println(year + " is not a leap year.");    System.exit(0);
+    } catch (NumberFormatException nfe) {  //if the input is not a number here it will catch the exception
+       
+     System.out.println(str+" is not a valid input");
+    
+  }
+}
+}
