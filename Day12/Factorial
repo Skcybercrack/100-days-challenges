@@ -1,1 +1,33 @@
+import java.util.Scanner;
+public class factorial {
 
+  public static void main(String[] args) {
+
+  
+   
+    
+Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER THE NUMBER");
+        String str = sc.nextLine();
+ 
+  long fact=1;
+     if(str==null)
+   {
+   System.out.println("NULL VALUE ENTERED");
+   System.exit(0);
+   }
+    try{
+        int number = Integer.parseInt(str);
+    for(int i=1;i<=number;i++){    
+    fact=fact*i;   
+      
+  }    
+      System.out.println("The factorial is  "+fact);
+           System.exit(0);
+    } catch (NumberFormatException nfe) {  //if the input is not a number here it will catch the exception
+       
+     System.out.println(str+" is not a valid input");
+    
+  }
+}
+}
