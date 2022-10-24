@@ -1,0 +1,41 @@
+Fibonacci series printing.
+
+
+import java.util.Scanner;
+public class Fibonacci {
+ 
+
+  public static void main(String[] args) {
+
+  
+   
+    
+Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER THE Input");
+        String str = sc.nextLine();
+ 
+
+     if(str==null)
+   {
+   System.out.println("NULL VALUE ENTERED");
+   System.exit(0);
+   }
+    try{
+        int n1=0,n2=1,n3,i,count;    
+        count=Integer.parseInt(str);
+ System.out.print(n1+" "+n2);//printing 0 and 1    
+    
+ for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed    
+ {    
+  n3=n1+n2;    
+  System.out.print(" "+n3);    
+  n1=n2;    
+  n2=n3;    
+ }    
+    } catch (NumberFormatException nfe) {  //if the input is not a number here it will catch the exception
+       
+     System.out.println(str+" is not a valid input");
+    
+  }
+}
+}
