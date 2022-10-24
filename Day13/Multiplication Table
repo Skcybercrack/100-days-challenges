@@ -1,0 +1,37 @@
+Print Multiplication Table
+
+
+
+import java.util.Scanner;
+public class Multiplicationtable {
+ 
+
+  public static void main(String[] args) {
+
+  
+   
+    
+Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER THE Input");
+        String str = sc.nextLine();
+ 
+
+     if(str==null)
+   {
+   System.out.println("NULL VALUE ENTERED");
+   System.exit(0);
+   }
+    try{
+        int num=Integer.parseInt(str);
+        
+      for(int i = 1; i <= 10; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", num, i, num * i);
+        }
+    } catch (NumberFormatException nfe) {  //if the input is not a number here it will catch the exception
+       
+     System.out.println(str+" is not a valid input");
+    
+  }
+}
+}
