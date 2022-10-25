@@ -1,0 +1,37 @@
+FIND GCD OF GIVEN TWO NUMBER
+
+
+
+import java.util.Scanner;
+public class Fibonacci {
+  public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER THE 1st Number");
+        String str = sc.nextLine();
+        System.out.println("ENTER THE 2st Number");
+        String str1 = sc.nextLine();
+
+     if(str==null || str1==null )
+   {
+   System.out.println("NULL VALUE ENTERED");
+   System.exit(0);
+   }
+    try{
+        int x = Integer.parseInt(str);
+        int y = Integer.parseInt(str1);
+        int gcd = 1;  
+        for(int i = 1; i <= x && i <= y; i++)  
+{  
+//returns true if both conditions are satisfied   
+if(x%i==0 && y%i==0)  
+//storing the variable i in the variable gcd  
+gcd = i;
+
+}  System.out.printf("GCD of %d and %d is: %d", x, y, gcd);
+    } catch (NumberFormatException nfe) {  //if the input is not a number here it will catch the exception
+       
+     System.out.println(str+" is not a valid input");
+    
+  }
+}
+}
