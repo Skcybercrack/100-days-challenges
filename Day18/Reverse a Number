@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+
+public class Reverseint{   
+    
+  
+ public static void main(String args[]){    
+  
+     Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER THE NUMMBER");
+       
+        
+      String str = sc.nextLine();
+  if(str==null)
+         System.out.println("NULL VALUE CANT BE ACCEPTED");
+   
+    try{
+       int number = Integer.parseInt(str),reverse=0;
+   while(number != 0)   
+{  
+int remainder = number % 10;  
+reverse = reverse * 10 + remainder;  
+number = number/10;  
+}  
+System.out.println("The reverse of the given number is: " + reverse);  
+    }
+   catch (NumberFormatException e) {  //if the input is not a number here it will catch the exception
+       
+     System.out.println(str+" is not a valid input");
+    
+     
+     
+     
+     
+     
+  }
+}    
+}  
