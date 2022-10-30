@@ -2,7 +2,7 @@ Find the value of the power of number
 
 
 import java.util.Scanner;  
-public class PowerOfNumberExample1   
+public class Power 
 {  
 //function to find the power of a number  
 static int power(int base, int exponent)  
