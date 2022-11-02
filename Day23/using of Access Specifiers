@@ -1,0 +1,48 @@
+using of Access Specifiers in java
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+class MainClass 
+{ 
+  
+ protected int y = 90; 
+ 
+
+ 
+protected void m2() 
+{ 
+   System.out.println("Base class m2 method"); 
+ } 
+} 
+ class class1 extends MainClass 
+{ 
+ private void private1()
+    {
+        System.out.println("Private Method "+ "called from outside");
+    }
+ } 
+public class NewClass1
+{ 
+   
+ public static void main(String[] args)  throws Exception
+ { 
+     
+     
+   class1 d = new class1(); // Private members cannot be accessed due to not available in subclass. 
+   
+   Method n = class1.class.getDeclaredMethod("private1");
+  
+        // Using setAccessible() method
+        n.setAccessible(true);
+   System.out.println("y = "+d.y);
+        // Using invoke() method
+  
+   n.invoke(d);
+    d.m2();
+
+     
+     
+             
+
+ }
+}
