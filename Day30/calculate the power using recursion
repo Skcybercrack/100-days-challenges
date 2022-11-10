@@ -1,0 +1,30 @@
+calculate the power using recursion
+
+import java.util.Scanner;
+
+class GFG {
+ 
+    // Function to calculate N raised to the power P
+    static int power(int N, int P)
+    {
+        if (P == 0)
+            return 1;
+        else
+            return N * power(N, P - 1);
+    }
+ 
+    // Driver code
+    public static void main(String[] args)
+    {  
+        
+        Scanner sc=new Scanner(System.in);
+        
+        System.out.println("Enter The number");
+        int N = sc.nextInt();
+        
+         System.out.println("Enter The Power");
+        int P =  sc.nextInt();
+ 
+        System.out.println(power(N, P));
+    }
+}
