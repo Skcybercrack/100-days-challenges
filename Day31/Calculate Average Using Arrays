@@ -1,0 +1,46 @@
+Calculate Average Using Arrays
+
+
+import java.util.Scanner;
+public class Main {
+
+  public static void main(String[] args) {
+
+
+   
+   int[] array=new int[30];
+Scanner sc=new Scanner(System.in);
+        
+
+   
+    try{
+        
+        System.out.println("Enter the Maximum number");
+        int a=sc.nextInt();
+        for(int i=0;i<a;i++)
+        {
+         array[i] = sc.nextInt(); 
+        }
+        // getting array length
+        int length = array.length;
+ 
+        // default sium value.
+        int sum = 0;
+ 
+        // sum of all values in array using for loop
+        for (int i = 0; i < a; i++) {
+            sum += array[i];
+        }
+ 
+        double average = sum / a;
+         
+        System.out.println("Average of array : "+average);
+        
+        System.exit(0);
+    } catch (NumberFormatException nfe) {  //if the input is not a number here it will catch the exception
+       
+     System.out.println(" is not a valid input");
+    
+  }
+}
+}
