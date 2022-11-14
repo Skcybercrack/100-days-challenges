@@ -1,0 +1,18 @@
+
+public class ClientTest {
+
+	public static void main(String[] args) {
+		
+		account account = new account();
+		AccountHolder accountHolder = new AccountHolder(account);
+                AccountHolder1 accountHolder1 = new AccountHolder1(account);
+		Thread t1 = new Thread(accountHolder);
+		Thread t2 = new Thread(accountHolder1);
+		t1.setName("Jack");
+                t2.setName("jack1");
+	
+		
+		t1.start();
+		t2.start();
+	}
+}
