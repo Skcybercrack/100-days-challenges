@@ -1,0 +1,36 @@
+package com.mycompany.mavenproject1;
+
+import java.util.Calendar;
+import java.util.Date;
+
+/**
+ *
+ * @author mobil
+ */
+public class NewClass{
+
+    public static void main(String[] args) {
+
+        try {
+            Date startTime = Calendar.getInstance().getTime();
+            Thread.sleep(10000);
+            Date endTime = Calendar.getInstance().getTime();
+
+            long difference = endTime.getTime() - startTime.getTime();
+
+            long differenceSeconds = difference / 1000 % 60;
+            long differenceMinutes = difference / (60 * 1000) % 60;
+            long differenceHours = difference / (60 * 60 * 1000) % 24;
+            long differenceDays = difference / (24 * 60 * 60 * 1000);
+
+            System.out.println(differenceDays + " days, ");
+            System.out.println(differenceHours + " hours, ");
+            System.out.println(differenceMinutes + " minutes, ");
+            System.out.println(differenceSeconds + " seconds.");
+        }
+        catch (InterruptedException e) {
+            
+            System.out.println(" failed.");
+        }
+    }
+}
