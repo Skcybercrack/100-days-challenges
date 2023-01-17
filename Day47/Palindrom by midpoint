@@ -1,0 +1,42 @@
+palindrom in O(n/2)
+
+
+import java.io.*;
+import java.lang.*;
+import java.util.*;
+class Palindrome
+{
+    public static void main(String args[])
+    {
+        int i,j;
+        String S1="suusuus1";
+        String S2="";
+        S1=S1.toLowerCase();
+        int l=S1.length();
+        for(i=0,j=l;i<(l-1)/2;i++,j--)
+        {
+            char a,b;
+
+            a=S1.charAt(i);
+            b=S1.charAt(j-1);
+        if(a==b)    
+        {
+
+        }
+        else{
+            break;
+        }
+    
+        }
+        System.out.println((l-1)/2+""+i);
+        if(i>=(l-1)/2)
+        {
+            System.out.println("Pallindrome");
+        }
+        else
+        {
+            System.out.println("Not Pallindrome");
+        }
+        
+    }
+}
